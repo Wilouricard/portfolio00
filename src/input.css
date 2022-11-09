@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* npx tailwindcss -i ./src/input.css -o ./src/output.css --watch */
