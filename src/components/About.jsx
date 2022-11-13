@@ -22,9 +22,9 @@ export default function About() {
           <ul className="list-disc flex flex-col gap-4">
             <li>freeCodeCamp certifications:</li>
             <ul className="list-disc pl-12 flex flex-col gap-4 underline">
-              <li><a href="https://www.freecodecamp.org/certification/Nameroune/responsive-web-design">Responsive Web Design</a></li>
-              <li><a href="https://www.freecodecamp.org/certification/Nameroune/javascript-algorithms-and-data-structures">JavaScript Algorithms and Data Structures</a></li>
-              <li><a href="https://www.freecodecamp.org/certification/Nameroune/front-end-development-libraries">Front End Development Libraries</a></li>
+              <li><a href="https://www.freecodecamp.org/certification/Nameroune/responsive-web-design" target={"_blank"}>Responsive Web Design</a></li>
+              <li><a href="https://www.freecodecamp.org/certification/Nameroune/javascript-algorithms-and-data-structures" target={"_blank"}>JavaScript Algorithms and Data Structures</a></li>
+              <li><a href="https://www.freecodecamp.org/certification/Nameroune/front-end-development-libraries" target={"_blank"}>Front End Development Libraries</a></li>
             </ul>
             <li>openclassrooms courses</li>
             <li>scrimba courses</li>
