@@ -9,7 +9,7 @@ export default function Navbar(){
             <button>projects</button>
             <button>contact</button>
         </nav>
-        <marquee behavior="scroll" direction="left" scrollamount="30" className="bg-gray-200 text-slate-800 py-3">Integer consectetur dictum tortor quis mollis. Morbi cursus nisi turpis, in posuere turpis dapibus ut. Integer quis pretium nisi, nec sagittis nisi. Praesent tempor posuere ipsum.</marquee>
+        {/* <marquee behavior="scroll" direction="left" scrollamount="30" className="bg-gray-200 text-slate-800 py-3">Integer consectetur dictum tortor quis mollis. Morbi cursus nisi turpis, in posuere turpis dapibus ut. Integer quis pretium nisi, nec sagittis nisi. Praesent tempor posuere ipsum.</marquee> */}
         </div>
     )
 }
