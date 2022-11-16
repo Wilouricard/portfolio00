@@ -32,7 +32,7 @@ export default function About() {
             <li>youtube</li>
             <li>discord communities</li>
             <li>front-end mentor</li>
-            <li>leetcode</li>
+            <li>leetcode <i>not that much krkrkr</i></li>
             <li><a href="#projects" className="underline">projects</a> building...</li>
           </ul>
         </div>
