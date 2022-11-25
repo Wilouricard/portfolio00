@@ -11,20 +11,22 @@ export default function Contact() {
             fill the form, and I'll get back to you as soon as possible.
           </p>
         </div>
-        <form action="" className="flex flex-col gap-8 lg:w-1/4 lg:mr-auto lg:ml-auto">
+        <form name="contact" method="POST" data-netlify="true" onSubmit="submit" action="" className="flex flex-col gap-8 lg:w-1/4 lg:mr-auto lg:ml-auto">
           <input
             type="text"
             placeholder="NAME"
             className="bg-gray-100 border-b border-black w-full py-3 px-4"
+            name="name"
           />
           <input
             type="email"
             required
             placeholder="EMAIL"
             className="bg-gray-100 border-b border-black w-full py-3 px-4"
+            name="email"
           />
           <textarea
-            name=""
+            name="textarea"
             id=""
             cols="30"
             rows="5"
