@@ -4,21 +4,21 @@ export default function About() {
   return (
     <div className="bg-gray-200 flex flex-col gap-10 px-10 pb-20" id="about">
       <h1 className="text-center font-bold uppercase text-6xl">about me</h1>
-      <div className="flex flex-col gap-12">
+      <div className="flex flex-col gap-12 lg:items-start lg:w-1/4 lg:mr-auto lg:ml-auto">
         <div className="flex flex-col gap-6">
-          <h2 className="font-bold uppercase">academic background</h2>
+          <h2 className="font-bold uppercase lg:text-3xl">academic background</h2>
           <ul className="list-disc flex flex-col gap-4">
             <li>
-              bachelor degree in chemistry & biology - strasbourg university
+              Bachelor degree in Chemistry & Biology - Strasbourg University
             </li>
             <li>
-              master degree in physics, chemistry, computer sciences, analytics
-              & materials - strasbourg university & ECPM engineering school
+              Master degree in Physics, Chemistry, Computer Sciences, Analytics
+              & Materials {"(CPIAM)"}- Strasbourg University & ECPM Engineering School
             </li>
           </ul>
         </div>
         <div className="flex flex-col gap-6">
-          <h2 className="font-bold uppercase">front-end self taught</h2>
+          <h2 className="font-bold uppercase lg:text-3xl">front-end self taught</h2>
           <ul className="list-disc flex flex-col gap-4">
             <li>freeCodeCamp certifications:</li>
             <ul className="list-disc pl-12 flex flex-col gap-4 underline">
@@ -32,7 +32,7 @@ export default function About() {
             <li>youtube</li>
             <li>discord communities</li>
             <li>front-end mentor</li>
-            <li>leetcode <i>not that much krkrkr</i></li>
+            <li>leetcode</li>
             <li><a href="#projects" className="underline">projects</a> building...</li>
           </ul>
         </div>

@@ -6,12 +6,12 @@ export default function Contact() {
       <div className="px-10 py-20 flex flex-col gap-6">
         <div className="flex flex-col gap-8 text-center">
           <h1 className="uppercase text-center text-6xl font-bold" id="contact">contact</h1>
-          <p className="leading-8 tracking-tighter">
+          <p className="leading-8 tracking-tighter lg:w-1/4 lg:mr-auto lg:ml-auto">
             I would love to hear about your project and how I could help. Please
             fill the form, and I'll get back to you as soon as possible.
           </p>
         </div>
-        <form action="" className="flex flex-col gap-8">
+        <form action="" className="flex flex-col gap-8 lg:w-1/4 lg:mr-auto lg:ml-auto">
           <input
             type="text"
             placeholder="NAME"

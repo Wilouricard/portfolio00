@@ -2,14 +2,16 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col gap-4 bg-gray-200 px-10 pb-20">
-      <img src="\images\ReadyPlayerMe-Avatar.png" alt="" />
-      <div className="flex flex-col gap-8 text-center">
+    <div className="flex flex-col gap-4 bg-gray-200 px-10 pb-20 lg:flex-row lg:pb-0">
+      <div className="lg:w-1/2 lg:min-h-screen lg:justify-center lg:items-center lg:flex">
+      <img src="\images\ReadyPlayerMe-Avatar.png" alt="" className="lg:mr-auto lg:ml-auto lg:rounded-full"/>
+      </div>
+      <div className="flex flex-col gap-8 text-center lg:w-1/2 lg:justify-center lg:text-start lg:px-20">
         <h1 className="uppercase text-6xl font-bold tracking-widest">
           bonjour
         </h1>
         <p className="">
-          I am <span className="font-bold tracking-[4px]">nam</span>, 23
+          I am <span className="font-bold tracking-[4px]">Nam</span>, 23
         </p>
         <p className="">
           Based in France, I'm a{" "}
@@ -18,10 +20,10 @@ export default function Hero() {
           </span>{" "}
           front-end developer passionate about building accessible web apps.
         </p>
-        <a href="#contact" className="underline font-bold">
+        <a href="#contact" className="underline font-bold lg:mr-auto lg:ml-auto">
           <p>CONTACT ME</p>
         </a>
-        <div className="flex items-end justify-center gap-8 text-xs">
+        <div className="flex items-end justify-center gap-8 text-xs lg:text-center">
           <div>
             <div className="w-[40px]">
               <img src="\images\html5.svg" alt="" />
