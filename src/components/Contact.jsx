@@ -12,6 +12,7 @@ export default function Contact() {
           </p>
         </div>
         <form name="contact" method="POST" data-netlify="true" onSubmit="submit" action="" className="flex flex-col gap-8 lg:w-1/4 lg:mr-auto lg:ml-auto">
+          <input type="hidden" name="form-name" value="contact" />
           <input
             type="text"
             placeholder="NAME"
@@ -26,7 +27,7 @@ export default function Contact() {
             name="email"
           />
           <textarea
-            name="textarea"
+            name="message"
             id=""
             cols="30"
             rows="5"
