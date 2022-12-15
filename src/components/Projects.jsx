@@ -9,6 +9,12 @@ export default function Projects() {
       </h1>
       <div className="flex overflow-x-scroll snap-x whitespace-nowrap gap-4 snap-proximity">
         <ProjectCard 
+        img="\projects-sc\newshomepage.png"
+        title="News Homepage" 
+        tech="ReactJS TailwindCSS HTML"
+        preview="https://newshomepage-wilou.netlify.app/"
+        repo="https://github.com/Wilouricard/newsHomepage" />
+        <ProjectCard 
         img="\projects-sc\sunnyside.png"
         title="Sunnyside Agency Landing Page" 
         tech="ReactJS TailwindCSS HTML"
