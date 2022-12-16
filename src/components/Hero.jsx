@@ -18,7 +18,7 @@ export default function Hero() {
           <span className="line-through text-gray-700">
             pharmaceutical research & quality engineer
           </span>{" "}
-          front-end developer passionate about building accessible web apps.
+          front-end developer passionate about building accessible web apps. Currently learning Java on CodeAcademy.
         </p>
         <a href="#contact" className="underline font-bold lg:mr-auto lg:ml-auto">
           <p>CONTACT ME</p>
