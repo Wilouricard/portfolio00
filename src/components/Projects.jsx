@@ -9,6 +9,18 @@ export default function Projects() {
       </h1>
       <div className="flex overflow-x-scroll snap-x whitespace-nowrap gap-4 snap-proximity">
         <ProjectCard 
+        img="\projects-sc\projetnaaa.png"
+        title="Sport App" 
+        tech="Angular JavaSpringBoot TailwindCSS"
+        preview="https://projet-naaa-frontend.netlify.app/"
+        repo="https://github.com/TrangAlexis/projet_naaa" />
+        <ProjectCard 
+        img="\projects-sc\clipboard.png"
+        title="Clipboard wbs" 
+        tech="Angular TailwindCSS HTML"
+        preview="https://clipboardapple.netlify.app/"
+        repo="https://github.com/Wilouricard/clipboard" />
+        <ProjectCard 
         img="\projects-sc\newshomepage.png"
         title="News Homepage" 
         tech="ReactJS TailwindCSS HTML"

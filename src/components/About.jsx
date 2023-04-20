@@ -36,6 +36,11 @@ export default function About() {
             <li><a href="#projects" className="underline">projects</a> building...</li>
           </ul>
         </div>
+        <div className="flex flex-col gap-6">
+          <h2 className="font-bold uppercase lg:text-3xl">full stack / back-end</h2>
+          <p>During my training, I learned software programming starting with pure Java, including DAOs and other fundamental concepts. Over time, I gradually integrated various frameworks such as JPA, Hibernate, Spring Core, Spring Boot, and Spring Security,... gaining expertise in different architectures for Java software. In addition to mastering Java, I also learned Angular during my training and focused on perfecting my front-end skills.</p>
+          <p>I am currently employed at one of the leading tech consulting firms in France, and my goal is to strive for continual improvement and further learning on a daily basis.</p>
+        </div>
       </div>
       <a href="#contact" className="underline font-bold text-center">
           <p>CONTACT ME</p>
